@@ -23,32 +23,36 @@ const Home = () => {
       </div>
       {/* <!-- Preloader Ends --> */}
 
-      <header>
-        <div className="container">
-          <div className="content">
-            <div className="app-logo">
-              <a href="/">Logo Here</a>
-            </div>
+      <header  >
+        <div className="  flex justify-between items-center ">
+          <div className="">
+            <a href="/" className="h-[100px] w-auto inline-block  ">
+              <img
+                src="/img/web-icon.png"
+                alt="logo"
+                className="object-contain h-full w-full "
+              />
+            </a>
+          </div>
 
-            <nav className="">
-              <a href="#main-section">Accueil</a>
-              <a href="#author-section">A propos</a>
-              <a
-                data-toggle="modal"
-                data-target="#buying-view"
-                href="#buying-view"
-              >
-                Shop
-              </a>
-              <a href="#contact-section">Contact</a>
-            </nav>
+          <nav className="">
+            <a href="#main-section">Accueil</a>
+            <a href="#author-section">A propos</a>
+            <a
+              data-toggle="modal"
+              data-target="#buying-view"
+              href="#buying-view"
+            >
+              Shop
+            </a>
+            <a href="#contact-section">Contact</a>
+          </nav>
 
-            <div data-menu-toggle className="nav-toggle">
-              <i className="fal fa-bars" />
-            </div>
-            <div data-menu-toggle className="nav-close">
-              <i className="fal fa-times-circle" />
-            </div>
+          <div data-menu-toggle className="nav-toggle">
+            <i className="fal fa-bars" />
+          </div>
+          <div data-menu-toggle className="nav-close">
+            <i className="fal fa-times-circle" />
           </div>
         </div>
       </header>
